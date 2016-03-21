@@ -81,6 +81,7 @@ app = (function () {
 
         startSearch: function (inputAddress) {
             $searchStatus.html('Loading...').show();
+            $resultsView.hide();
             curDocs = undefined;
 
             // Standardize address
