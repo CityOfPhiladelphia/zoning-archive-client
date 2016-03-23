@@ -98,7 +98,7 @@ app = (function () {
             // $searchStatus.html('Finding documents...');
 
             $.ajax({
-                url: 'https://c694a6d0.ngrok.io/address/' + stdAddress + '/documents/',
+                url: 'https://268d1cce.ngrok.io/address/' + stdAddress + '/documents/',
                 success: app.didGetDocuments,
                 error: app.didFailToGetDocuments,
             });
